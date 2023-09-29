@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """LogReport Generator
 
 This script takes a log file as input and generates two reports from the logs.
