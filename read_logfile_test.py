@@ -13,10 +13,10 @@ class TestOpenLogFile(unittest.TestCase):
             read_logfile(testcase)
         self.assertEqual(cm.exception.code, 1)
 
-    def input_is_no_string(self):
+    def test_filname_is_no_string(self):
         testcase = [0,1]
-        with self.assertRaises(SystemExit) as cm:
+        with self.assertRaises(SystemExit) as dm:
            read_logfile(testcase)
-        self.assertEqual(cm.exception.code, 1)
+        self.assertEqual(dm.exception.code, 1)
 
 unittest.main(exit=False)

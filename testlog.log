@@ -1,0 +1,10 @@
+Sep 26 14:25:10 my-server-01 kernel: WARNING: CPU temperature is above safe threshold (85°C) [12345]
+Sep 26 14:27:05 my-server-01 apache2[56789]: [error] AH00124: Request exceeded limit of 10 internal redirects due to probable configuration error
+Sep 26 14:28:20 my-server-01 sshd[12345]: Connection closed by 192.168.1.101 port 54322 [preauth]
+Sep 26 14:30:15 my-server-01 postfix/smtp[56789]: warning: TLS library problem: 12345:error:1408F10B:SSL routines:ssl3_get_record:wrong version number:ssl/record/ssl3_record.c:252:
+Sep 26 14:31:50 my-server-01 kernel: [CRITICAL] System ran out of memory. Initiating emergency shutdown. [23456]
+Sep 26 14:33:02 my-server-01 sshd[56789]: Failed password for invalid user admin from 192.168.1.102 port 54323 ssh2
+Sep 26 14:35:30 my-server-01 postfix/error[56789]: 12345:to=, relay=none, delay=0.01, delays=0.01/0/0/0, dsn=5.0.0, status=bounced (mail delivery failed)
+Sep 26 14:37:45 my-server-01 kernel: [ERROR] Disk I/O error detected on /dev/sda1 [34567]
+Sep 26 14:40:10 my-server-01 nginx[56789]: [crit] 12345#0: *12345 open() "/var/www/html/somefile.html" failed (13: Permission denied)
+Sep 26 14:42:55 my-server-01 postfix/master[56789]: warning: process /usr/lib/postfix/smtp pid 56789 exit status 1
