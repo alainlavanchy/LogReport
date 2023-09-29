@@ -17,7 +17,7 @@ import os
 
 
 def read_logfile(file):
-    if not isinstance(file, 'str'):
+    if not isinstance(file, str):
         logging.error('Filename and path has to be a string.')
         exit(1)
     if not os.path.isfile(file):

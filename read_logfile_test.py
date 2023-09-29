@@ -9,8 +9,9 @@ import unittest
 class TestOpenLogFile(unittest.TestCase):
     def test_file_not_exists(self):
         testcase = "NoSuchLogFile.log"
-        expected = None
-        self.assertEqual(read_logfile(testcase), expected)
+        with self.assertRaises(SystemExit) as cm:
+            false_file = read_logfile(testcase)
+        self.assertEqual(cm.exception.code, 1)
 
 
 unittest.main()
