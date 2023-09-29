@@ -10,8 +10,13 @@ class TestOpenLogFile(unittest.TestCase):
     def test_file_not_exists(self):
         testcase = "NoSuchLogFile.log"
         with self.assertRaises(SystemExit) as cm:
-            false_file = read_logfile(testcase)
+            read_logfile(testcase)
         self.assertEqual(cm.exception.code, 1)
 
+    def input_is_no_string(self):
+        testcase = [0,1]
+        with self.assertRaises(SystemExit) as cm:
+           read_logfile(testcase)
+        self.assertEqual(cm.exception.code, 1)
 
-unittest.main()
+unittest.main(exit=False)
