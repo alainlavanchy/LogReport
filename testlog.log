@@ -1,4 +1,4 @@
-Sep 26 14:25:10 my-server-01 kernel: WARNING: CPU temperature is above safe threshold (85°C) [12345]
+Sep 26 14:25:10 my-server-01 kernel: WARNING: CPU temperature is above safe threshold [12345]
 Sep 26 14:27:05 my-server-01 apache2[56789]: [error] AH00124: Request exceeded limit of 10 internal redirects due to probable configuration error
 Sep 26 14:28:20 my-server-01 sshd[12345]: Connection closed by 192.168.1.101 port 54322 [preauth]
 Sep 26 14:30:15 my-server-01 postfix/smtp[56789]: warning: TLS library problem: 12345:error:1408F10B:SSL routines:ssl3_get_record:wrong version number:ssl/record/ssl3_record.c:252:
