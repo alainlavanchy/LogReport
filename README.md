@@ -9,12 +9,12 @@ Input
 Log file
 
 Output
-..
+--
 Error_log.csv containing all the errors
 Usage_log.csv containing the data on the usage of the ticky system
 
 Libraries
-..
+--
 Re - to use regex for extracting the data from the log files
 Os - to handle the files
 Logging - to log all errors of the LogReport programm itself
