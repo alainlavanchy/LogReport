@@ -15,7 +15,7 @@ class TestOpenLogFile(unittest.TestCase):
 
     def test_logfile_exists(self):
         testcase = "testlog.log"
-        expected = "Sep 26 14:25:10 my-server-01 kernel: WARNING: CPU temperature is above safe threshold [12345]\n"
+        expected = "May 27 11:45:40 ubuntu.local ticky: INFO: Created ticket [#1234] (peter.marlow)\n"
         file = read_logfile(testcase)
         teststring = file.readline()
         file.close()

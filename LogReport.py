@@ -24,17 +24,19 @@ def read_logfile(file):
         logging.error('File not found')
         exit(1)
     log_file = open(file, "r")
+    print("File read")
     return log_file
 
 def read_errors(file_object):
-    if not isinstance(file_object, str):
-        logging.error('File content has to be a string.')
-        exit(1)
     error_log = {}
     Lines = file_object.readlines()
     for line in Lines:
         print(line)
-
+        x = re.search(r"(ERROR:)(.*)(\([\w.]+\))", line)
+        if (x):
+            print(x.groups())
+        else:
+            print("Found nothing")
     return error_log
 
 def read_usage(file):
@@ -49,7 +51,12 @@ def write_error_csv(error_logs, error_csv_file):
 
 def main():
     logging.basicConfig(filename='LR_Logging.log', level=logging.INFO)
-    logging.INFO('Start Logging')
-
+    logging.info('Start Logging')
+    file = ('testlog.log')
     #Run the main code
-    logging.INFO('End Logging')
+    file_object = read_logfile(file)
+    find_errors = read_errors(file_object)
+    logging.info('End Logging')
+
+if __name__ == "__main__":
+    main()
