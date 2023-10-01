@@ -26,8 +26,15 @@ def read_logfile(file):
     log_file = open(file, "r")
     return log_file
 
-def read_errors(file):
+def read_errors(file_object):
+    if not isinstance(file_object, str):
+        logging.error('File content has to be a string.')
+        exit(1)
     error_log = {}
+    Lines = file_object.readlines()
+    for line in Lines:
+        print(line)
+
     return error_log
 
 def read_usage(file):
