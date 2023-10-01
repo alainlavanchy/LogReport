@@ -16,6 +16,7 @@ import re
 import logging
 import os
 import csv
+import sys
 
 
 
@@ -218,13 +219,21 @@ def write_error_csv(error_report, error_csv_file):
     logging.info("CSV Report {} created".format(error_csv_file))
     return
 
+def check_arguments():
+    logging.info("Handed over arguments: {}".format(len(sys.argv)))
+    if len(sys.argv)==1:
+        logging.critical("Missing arguments")
+        exit(1)
+    else:
+        logfile = sys.argv[1]
+    return logfile
+
 def main():
     logging.basicConfig(filename='LR_Logging.log', level=logging.INFO)
     logging.info('Start Logging')
-    file = ('testlog.log')
-    #Run the main code
-    file_object = read_logfile(file)
-    file_object2 = read_logfile(file)
+    logfile = check_arguments()
+    file_object = read_logfile(logfile)
+    file_object2 = read_logfile(logfile)
     find_usage = read_usage(file_object)
     find_errors = read_errors(file_object2)
     usage_report = create_usage_error_report(find_usage, find_errors)
