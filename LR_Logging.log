@@ -1,73 +1,19 @@
 INFO:root:Start Logging
-INFO:root:Found nothing
-INFO:root:('ERROR:', ' Connection to DB failed ', '(hans.zimmer)')
-INFO:root:Found nothing
-INFO:root:('ERROR:', ' Connection to DB failed ', '(peter.marlow)')
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:('ERROR:', ' Login failed ', '(peter.marlow)')
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:Found nothing
-INFO:root:('ERROR:', ' Connection to DB failed ', '(hans.zimmer)')
-INFO:root:Found nothing
-INFO:root:('ERROR:', ' Connection to DB failed ', '(peter.marlow)')
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:('ERROR:', ' Login failed ', '(peter.marlow)')
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:7
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:Found 7 lines in the log
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
-INFO:root:End Logging
-INFO:root:Start Logging
 INFO:root:File read testlog.log
-INFO:root:Found 7 lines in the log
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:File read testlog.log
-INFO:root:Found 7 lines in the log
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:Found nothing
-INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
-INFO:root:Found 0 lines in the log
-INFO:root:[]
-INFO:root:End Logging
-INFO:root:Start Logging
 INFO:root:File read testlog.log
 INFO:root:Found 7 lines in the log
 INFO:root:Found nothing
 INFO:root:Found nothing
 INFO:root:Found nothing
 INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
-INFO:root:Found 0 lines in the log
-INFO:root:[]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'peter.marlow': {'usage': 3, 'errors': 2}, 'erna.muster': {'usage': 1}, 'hans.zimmer': {'errors': 1}}
 INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:File read testlog.log
-INFO:root:Start Logging
-INFO:root:File read testlog.log
-INFO:root:Start Logging
-INFO:root:File read testlog.log
 INFO:root:Start Logging
 INFO:root:File read testlog.log
 INFO:root:File read testlog.log
@@ -82,4 +28,293 @@ INFO:root:Found nothing
 INFO:root:Found nothing
 INFO:root:Found nothing
 INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'peter.marlow': {'usage': 3, 'errors': 2}, 'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}}
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:['erna.muster', 'hans.zimmer', 'peter.marlow']
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:CSV Report usage_report.csv created
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:CSV Report error_report.csv created
+INFO:root:CSV Report usage_report.csv created
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:CSV Report error_report.csv created
+INFO:root:CSV Report usage_report.csv created
+INFO:root:End Logging
+INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:{'erna.muster': {'usage': 1, 'errors': 0}, 'hans.zimmer': {'errors': 1, 'usage': 0}, 'peter.marlow': {'usage': 3, 'errors': 2}}
+INFO:root:{'Connection to DB failed': 2, 'Login failed': 1}
+INFO:root:CSV Report error_report.csv created
+INFO:root:CSV Report usage_report.csv created
 INFO:root:End Logging
