@@ -102,9 +102,8 @@ def create_error_report(error_logs):
             error_report[error_message] += 1
         else:
             error_report[error_message] = 1
-    myKeys = list(error_report.keys())
-    myKeys.sort()
-    error_report_sorted = {i: error_report[i] for i in myKeys}
+    sorted_errors = sorted(error_report.items(), key=lambda x:x[1], reverse=True)
+    error_report_sorted = dict(sorted_errors)
     logging.info(error_report_sorted)
     return error_report_sorted
 
