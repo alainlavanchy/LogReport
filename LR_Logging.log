@@ -1,75 +1,85 @@
 INFO:root:Start Logging
-ERROR:root:File content has to be a string.
-INFO:root:Start Logging
-ERROR:root:File content has to be a string.
-INFO:root:Start Logging
-INFO:root:Start Logging
+INFO:root:Found nothing
+INFO:root:('ERROR:', ' Connection to DB failed ', '(hans.zimmer)')
+INFO:root:Found nothing
+INFO:root:('ERROR:', ' Connection to DB failed ', '(peter.marlow)')
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:('ERROR:', ' Login failed ', '(peter.marlow)')
 INFO:root:End Logging
 INFO:root:Start Logging
+INFO:root:Found nothing
+INFO:root:('ERROR:', ' Connection to DB failed ', '(hans.zimmer)')
+INFO:root:Found nothing
+INFO:root:('ERROR:', ' Connection to DB failed ', '(peter.marlow)')
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:('ERROR:', ' Login failed ', '(peter.marlow)')
 INFO:root:End Logging
 INFO:root:Start Logging
+INFO:root:7
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
 INFO:root:End Logging
 INFO:root:Start Logging
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
 INFO:root:End Logging
 INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
 INFO:root:End Logging
 INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
+INFO:root:Found 0 lines in the log
+INFO:root:[]
 INFO:root:End Logging
 INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 0 lines in the log
+INFO:root:[]
 INFO:root:End Logging
 INFO:root:Start Logging
-INFO:root:End Logging
+INFO:root:File read testlog.log
 INFO:root:Start Logging
-INFO:root:End Logging
+INFO:root:File read testlog.log
 INFO:root:Start Logging
-INFO:root:End Logging
+INFO:root:File read testlog.log
 INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
-INFO:root:End Logging
-INFO:root:Start Logging
+INFO:root:File read testlog.log
+INFO:root:File read testlog.log
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('INFO:', ' Created ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Closed ticket [#1234] ', '(peter.marlow)'), ('INFO:', ' Created ticket [#1235] ', '(erna.muster)'), ('INFO:', ' Closed ticket [#1235] ', '(peter.marlow)')]
+INFO:root:Found 7 lines in the log
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:Found nothing
+INFO:root:[('ERROR:', ' Connection to DB failed ', '(hans.zimmer)'), ('ERROR:', ' Connection to DB failed ', '(peter.marlow)'), ('ERROR:', ' Login failed ', '(peter.marlow)')]
 INFO:root:End Logging
